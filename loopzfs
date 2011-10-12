@@ -1,0 +1,8 @@
+#!/bin/csh
+
+while (1)
+    echo perling...
+    perl -e '$x="x"x1000000000'
+    echo sleeping...
+    sleep 120
+end
